@@ -1,0 +1,29 @@
+Source: python-soupsieve
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@gmail.com>
+Homepage: https://github.com/facelessuser/soupsieve/tags
+Vcs-Browser: https://github.com/alvistack/facelessuser-soupsieve
+Vcs-Git: https://github.com/alvistack/facelessuser-soupsieve.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-soupsieve
+Architecture: all
+Description: Modern CSS selector implementation for BeautifulSoup
+ Soup Sieve is a CSS selector library designed to be used with Beautiful
+ Soup 4. It aims to provide selecting, matching, and filtering using
+ modern CSS selectors. Soup Sieve currently provides selectors from the
+ CSS level 1 specifications up through the latest CSS level 4 drafts and
+ beyond (though some are not yet implemented).
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
