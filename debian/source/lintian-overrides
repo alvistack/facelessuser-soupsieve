@@ -1,0 +1,5 @@
+python-soupsieve source: file-without-copyright-information
+python-soupsieve source: no-debian-changes
+python-soupsieve source: source-contains-prebuilt-windows-binary
+python-soupsieve source: source-is-missing
+python-soupsieve source: source-package-encodes-python-version
